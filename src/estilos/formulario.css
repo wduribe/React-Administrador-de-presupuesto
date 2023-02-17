@@ -1,0 +1,22 @@
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin: 0.2rem 0rem 1rem 0rem;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    color: gray;
+    font-weight: 600;
+    
+}
+
+.button-agregar-gasto {
+    width: 100%;
+}

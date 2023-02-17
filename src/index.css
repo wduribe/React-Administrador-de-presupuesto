@@ -1,0 +1,9 @@
+html, body {
+  height: auto;
+  background-color:   rgb(67, 67, 248);;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#root {
+  height: 100vh;
+}

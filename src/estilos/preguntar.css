@@ -1,0 +1,92 @@
+h1,h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.titulo {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+.titulo-form {
+    text-align: center;
+    font-weight: 500;
+    color: rgb(67, 67, 248);
+}
+.container {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    color: rgb(67, 67, 248);
+    
+}
+
+.header {
+    height: 100%;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido-principal {
+    height: auto;
+    width: 80%;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    background-color: white;
+}
+
+
+
+.form {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-form {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.presupuesto {
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        color: gray;
+        font-weight: 600;
+}
+
+.button {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(0, 165, 165);
+    color: white;
+    font-weight: bold;
+}
+
+.button:hover {
+    transition: all 0.2s ease-in-out;
+    background-color: rgb(18, 190, 190);
+}
+
+@media screen and (max-width: 320px) {
+    .contenido-principal {
+        width: 100%;
+        padding: 0.5rem;
+    }
+    .titulo-form {
+        font-size: 18px;
+        margin-bottom: 1rem;
+    }
+    .presupuesto, .button {
+        padding: 4px;
+    }
+           
+}
